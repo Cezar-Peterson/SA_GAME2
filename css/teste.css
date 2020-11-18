@@ -1,0 +1,12 @@
+.geral{
+    text-align: center;
+    height: 96vh;
+    overflow:hidden;
+    background-color: blueviolet;
+}
+
+
+.esc{
+    max-height: 0vh;
+    pointer-events: none;
+}

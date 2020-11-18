@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATEMÁTICA</title>
+    <link rel="stylesheet" href="css/matematica/mat.css">
+    <link rel="stylesheet" href="css/stars.css">
+</head>
+<body>
+    
+    <div id="mat-1"  style="text-align: center;" >
+        <div id="number">1</div>
+
+        <div id="enunc" >
+            Quantos graus são necessários para que dois ângulos sejam complementares?
+        </div>
+        <br>
+        
+            <button  onclick="aa()">45</button> <br>
+            <button  onclick="ab()">90</button> <br>
+            <button   onclick="ac()">180</button> <br>
+            <button  id="qg1"  onclick="ad()">360</button>
+        
+    </div>
+
+    <!--EXPLICAÇÃO 1-->
+
+    <div id="exp1"  style="text-align: center;">
+        <div id="number" >1</div>
+        <div id="enunc" >
+            Os ângulos complementares são ângulos que juntos somam 90º.
+        </div>
+        <br>
+        <button onclick="iq2()"  id="qg1">PRÓXIMA</button>
+    </div>
+
+    <!--QUESTÃO 2-->
+
+    <div  id="al2" style="text-align: center;">
+        <div id="number">2</div>
+        <div id="enunc">
+            Caminhando ao fim da tarde, uma senhora contou 20 casas em uma rua à sua direita. No regresso, ela contou 20 casas à sua esquerda. Quantas casas ela viu no total?
+        </div>
+        <br>
+    
+        <button onclick="a2a()">10</button><br>
+        <button onclick="a2b()">20</button><br>
+        <button onclick="a2c()">30</button><br>
+        <button onclick="a2d()"  id="qg1">40</button>
+    
+        
+    </div>
+    
+    <!--EXPLICAÇÃO 2-->
+    
+    <div id="exp2"  style="text-align: center;">
+        <div id="number">2</div>
+        <div id="enunc">
+            A senhora viu 20 casas no total, porque a sua direita na ida é a sua esquerda na volta, ou seja, nos dois itinerários, ela viu e contou as mesmas casas, e não casas diferentes.
+        </div>
+        <br>
+        <button onclick="iq3()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    <!--QUESTÃO 3-->
+    
+    <div  id="al3" style="text-align: center;">
+        <div id="number">3</div>
+        <div id="enunc">
+            Se 3/7 do que eu tenho são 195 reais, a quanto corresponde 4/5 do que eu tenho?
+        </div>
+        <br>
+    
+        <button onclick="a3a()">320</button><br>
+        <button onclick="a3b()">223</button><br>
+        <button onclick="a3c()">364</button><br>
+        <button onclick="a3d()"  id="qg1">355</button>
+    
+        
+    </div>
+    <!--EXPLICAÇÃO 3-->
+    
+    <div id="exp3"  style="text-align: center;">
+        <div id="number">3</div>
+        <div id="enunc">
+            Preciso descobrir quanto vale um sétimo do que eu tenho, para ficar mais fácil saber quanto tenho no total.
+195/3 = 65 reais.
+7*65 =  455 reais é o que eu tenho.
+Agora preciso saber quanto vale quatro quintos disso.
+Vou primeiro descobrir quanto que é um quinto de 455 reais.
+455 / 5 = 91 reais.
+Agora basta eu multiplicar 91 por 4.
+91*4 = 364 reais correspondem a 4/5 do que eu tenho.
+        </div>
+        <br>
+        <button onclick="iq4()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    <!--QUESTÃO 4-->
+    
+    <div  id="al4" style="text-align: center;">
+        <div id="number">4</div>
+        <div id="enunc">
+            Qual das alternativas tem os 5 primeiros múltiplos comuns de 8 e de 12:
+        </div>
+        <br>
+    
+        <button onclick="a4a()">0, 16, 24, 42, 66</button><br>
+        <button onclick="a4b()">0, 24, 48, 72, 96</button><br>
+        <button onclick="a4c()">0, 12, 48, 74, 82</button><br>
+        <button onclick="a4d()"  id="qg1">0, 16, 24, 66, 88</button>
+    
+        
+    </div>
+    <!--EXPLICAÇÃO 4-->
+    
+    <div id="exp4"  style="text-align: center;">
+        <div id="number">4</div>
+        <div id="enunc4" >
+            0, 24, 48, 72, 96
+    
+        </div>
+        <br>
+        <button id="buttonexp4" onclick="iq5()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    <!--QUESTÃO 5-->
+    
+    <div  id="al5" style="text-align: center;">
+        <div id="number" onmousemove="circulo()">5</div>
+        <div id="enunc">
+            O que é um polígono regular com infinitos lados?
+        </div>
+        <br>
+    
+        <button onclick="a5a()">Um triângulo</button><br>
+        <button onclick="a5b()">Um hexágono</button><br>
+        <button onclick="a5c()">Um pentágono </button><br>
+        <button onclick="a5d()"  id="qg1">Um paralelepípedo</button>
+    
+        
+    </div>
+    <!--EXPLICAÇÃO 5-->
+    
+    <div id="exp5"  style="text-align: center;">
+        <div id="number">5</div>
+         
+        <div id="enunc">
+            O poligono regular com lados infinitos é o circulo!
+        </div>
+        <br>
+        <button onclick="iq6()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    <!--QUESTÃO 6-->
+    
+    <div  id="al6" style="text-align: center;">
+        <div id="number">6</div>
+        <div id="enunc">
+            Considerando que A U B = {1, 2, 3, 4, 5, 6, 7, 8}, A ∩ B = {4, 5} e A – B = {1, 2, 3}, determine o conjunto B
+        </div>
+        <br>
+    
+        <button onclick="a6a()">{4, 5, 6, 7, 8}</button><br>
+        <button onclick="a6b()">{1, 2, 3}</button><br>
+        <button onclick="a6c()">{1, 2, 3, 4, 5, 6, 7, 8}</button><br>
+        <button onclick="a6d()"  id="qg1">{4, 5}</button>
+    
+        
+    </div>
+    <!--EXPLICAÇÃO 6-->
+    
+    <div id="exp6"  style="text-align: center;">
+        <div id="number">6</div>
+         
+        <div id="enunc">
+            O conjunto B é formado pelos seguintes elementos: {4, 5, 6, 7, 8}.
+        </div>
+        <br>
+        <button onclick="iq7()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    
+    <!--QUESTÃO 7-->
+    
+    <div  id="al7" style="text-align: center;">
+        <div id="number">7</div>
+        <div id="enunc">
+            No táxi que entrei havia 8 passageiros. Pouco depois, 3 pessoas desceram e duas entraram. Quantas pessoas há no táxi?
+        </div>
+        <br>
+    
+        <button onclick="a7a()">9</button><br>
+        <button onclick="a7b()">8</button><br>
+        <button onclick="a7c()">7</button><br>
+        <button onclick="a7d()"  id="qg1">6</button>
+    
+        
+    </div>
+    <!--EXPLICAÇÃO 7-->
+    
+    <div id="exp7"  style="text-align: center;">
+        <div id="number">7</div>
+         
+        <div id="enunc" >
+            Se eu entrei e já havia 9 pessoas ( 9, pois 8 passageiros mais o motorista) , então, comigo eram 10 pessoas. depois, desceram 3 e ficaram 7, no entanto, entrou mais duas que dão um total de 9 pessoas.
+        </div>
+        <br>
+        <button onclick="iq8()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    <!--QUESTÃO 8-->
+    
+    <div  id="al8" style="text-align: center;">
+        <div id="number">8</div>
+        <div id="enunc">
+            Quando eu tinha 8 anos, a minha irmã tinha a metade da minha idade. Agora que tenho 56 anos, com quantos anos minha irmã está?         
+        </div>
+        <br>
+    
+        <button onclick="a8a()">28</button><br>
+        <button onclick="a8b()">36</button><br>
+        <button onclick="a8c()">52</button><br>
+        <button onclick="a8d()"  id="qg1">42</button>
+    
+        
+    </div>
+    <!--EXPLICAÇÃO 8-->
+    
+    <div id="exp8"  style="text-align: center;">
+        <div id="number">8</div>
+         
+        <div id="enunc">
+            Minha irmã está com 52, porque se quando eu tinha 8 anos, ela tinha a metade, ou seja, 4 anos, temos 4 anos de diferença.
+
+        </div>
+        <br>
+        <button onclick="iq9()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    <!--QUESTÃO 9-->
+    
+    <div  id="al9" style="text-align: center;">
+        <div id="number">9</div>
+        <div id="enunc">
+            Quantas casas decimais tem o número pi?
+        </div>
+        <br>
+    
+        <button onclick="a9a()">Três</button><br>
+        <button onclick="a9b()"> Muitas</button><br>
+        <button onclick="a9c()">Finitas</button><br>
+        <button onclick="a9d()"  id="qg1">Infinitas</button>
+    
+        
+    </div>
+    <!--EXPLICAÇÃO 9-->
+    
+    <div id="exp9"  style="text-align: center;">
+        <div id="number">9</div>
+         
+        <div id="enunc">
+            Ao longo dos tempos, vários estudiosos têm se dedicado a calcular o número pi e já chegaram ao número de 5 bilhões de casas.
+        </div>
+        <br>
+        <button onclick="iq10()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    <!--QUESTÃO 10-->
+    
+    <div  id="al10" style="text-align: center;">
+        <div id="number">10</div>
+        <div id="enunc">
+            Meu avô tem 5 filhos, cada filho tem 3 filhos. Quantos primos eu tenho?
+        </div>
+        <br>
+    
+        <button onclick="a10a()"> 15</button><br>
+        <button onclick="a10b()">14</button><br>
+        <button onclick="a10c()">13</button><br>
+        <button onclick="a10d()"  id="qg1">12</button>
+    
+        
+    </div>
+    <!--EXPLICAÇÃO 10-->
+    
+    <div id="exp10"  style="text-align: center;">
+        <div id="number">10</div>
+         
+        <div id="enunc">
+            Tenho 12 primos (4.3 = 12), porque um dos filhos do meu avô é o meu pai, que tem 3 filhos (eu e meus 2 irmãos).
+        </div>
+        <br>
+        <button onclick="fim(); final()"  id="qg1">PRÓXIMA</button>
+    </div>
+    
+    <!-- FIM -->
+        <div id="final" style="text-align: center;">
+            <div id="enuncff" style="margin-left: 35%; margin-right: 35%;">RANKING</div>
+            <br>
+        <div id="enuncf">
+    
+        </div>
+        <button onclick="acabar()"  id="qg1"> FINALIZAR </button>
+        </div>
+
+<script src="js/matematica/tempo.js"></script>
+<script src="js/matematica/mat.js"></script>
+    <!--ESTRELAS-->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+</body>
+</html>

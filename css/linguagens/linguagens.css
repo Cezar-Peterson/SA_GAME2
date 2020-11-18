@@ -1,0 +1,278 @@
+body{
+    background: linear-gradient( rgb(3, 7, 58) 30%, rgb(29, 15, 223));
+    background-size: 100vw 105vh;
+    
+}
+::-webkit-scrollbar{
+    overflow: unset;
+}
+
+div#ling-1, div#exp1, div#al2, div#exp2, div#al3, div#exp3, div#al4, div#exp4, div#al5, div#exp5, div#al6, div#exp6, div#al7, div#exp7, div#al8, div#exp8, div#al9, div#exp9, div#al10, div#exp10, div#final{
+    height: 96vh;
+    max-height: 160vh;
+    overflow: auto;
+    margin-bottom: 0;
+}
+div#ling-1.some, div#exp1.some, div#al2.some, div#exp2.some, div#al3.some, div#exp3.some, div#al4.some, div#exp4.some, div#al5.some, div#exp5.some, div#al6.some, div#exp6.some, div#al7.some, div#exp7.some, div#al8.some, div#exp8.some, div#al9.some, div#exp9.some, div#al10.some, div#exp10.some, div#final.some{
+    height: 0vh;
+    max-height: 0vh;
+    
+}
+div{
+    overflow: hidden;
+    
+}
+div.some{
+    max-height: 0vh;
+    pointer-events: none;
+}
+div#number{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    background-color: rgb(0, 10, 146);
+    width: 50px;
+    height: 50px;
+    color: rgb(143, 186, 255);
+    border-radius: 100%;
+    border: 4px rgb(0, 225, 255) solid;
+    margin-top: 10px ;
+
+}
+
+
+div#enunc, div#enuncf, div#enunc4, div#enuncff{
+    color: white;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border: 10px white double;
+    background-color: rgba(38, 0, 255, 0.7);
+    
+}
+
+
+
+button{
+    
+    outline: none;
+    width: 400px;
+    height: 110px;
+    margin-top: 30px;
+    font-size: 25px;
+    border: 4px solid rgb(138, 138, 138);
+    background: linear-gradient(rgb(0, 0, 88),rgb(1, 1, 126), blue);
+    color: white;
+    transition: .4s;
+    border-radius: 30px;
+    
+}
+
+button:hover{
+    background: transparent; 
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transform: translateY(15px);
+    
+}
+
+button#qg1, button#buttonexp4{
+    margin-bottom: 50px;
+}
+
+div#exp7 > div#enunc {
+    font-size: 30px;
+}
+
+.super{
+    opacity: 0;
+    height: 9px;
+    transition: .5s;
+}
+.super:hover{
+    opacity: 1;
+    height: 40px;
+    color: black;
+    font-size: 25px;
+    background:linear-gradient( rgb(57, 133, 255), lightgreen);
+    border-radius: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width: 1680px){
+    div#al3 > div#enunc{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1630px){
+    div#enunc{
+        font-size: 45px;
+    }
+    div#al3 > div#enunc{
+        font-size: 39px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1276px){
+    
+    div#al3 > div#enunc{
+        font-size: 35px;
+        
+    }
+    div#al3 > img{
+        transform: scale(0.95);
+    }
+}
+
+@media screen and (max-width: 1155px){
+    div#enunc{
+        font-size: 45px;
+    }
+    div#al3 > div#enunc{
+        font-size: 32px;
+    }
+    button{
+        width: 360px;
+        height: 99px;
+    }
+    button:hover{
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 1047px){
+    div#enunc{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 986px){
+    div#enunc{
+        font-size: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 871px){
+    img{
+        width: 400px;
+        height: 225px;
+    }
+    div#al3 > div#enunc{
+        font-size: 35px;
+    }
+    div#al3 > button{
+        width: 360px;
+        height: 99px;
+    }
+    div#al3 > button:hover{
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 765px){
+    div#al3 > button{
+        width: 320px;
+        height: 88px;
+    }
+    div#al3 > button:hover{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 741px){
+    div#al3 > div#enunc{
+      font-size: 35px;  
+    }
+    
+}
+@media screen and (max-width: 665px){
+    div#al3 > div#enunc{
+        font-size: 30px;
+        
+    }
+    div#al3 > button{
+        width: 280px;
+        height: 77px;
+    }
+    div#al3 > button:hover{
+        width: 280px;
+    }
+
+    div#exp3 > div#enunc{
+        font-size: 35px;
+    }
+
+    div#exp7 > div#enunc {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    img{
+        width: 300px;
+        height: 169px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    div#exp3 > div#enunc{
+        font-size: 28px;
+        
+    }
+    div#al3 > button{
+        width: 260px;
+        height: 72px;
+    }
+    div#al3 > button:hover{
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 541px){
+    div#al3 > button{
+        width: 220px;
+        height: 61px;
+    }
+    div#al3 > button:hover{
+        width: 220px;
+    }
+}
+@media screen and (max-width: 534px){
+    div#enunc{
+        font-size: 38px;
+        
+    }
+    div#al2 > button{
+        width: 280px;
+        height:77px;
+        margin-top: 25px;
+    }
+    div#al2 > button:hover{
+        width: 280px;
+    }
+
+    div#exp3 > div#enunc{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    div#enunc{
+        font-size: 29px;
+    }
+    button{
+        width: 240px;
+        height:66px;
+        
+    }
+
+    div#number{
+        transform: scale(0.75);
+    }
+}

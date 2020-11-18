@@ -1,0 +1,328 @@
+body{
+    background: linear-gradient( rgb(3, 7, 58) 30%, rgb(29, 15, 223));
+    background-size: 100vw 105vh;
+    
+}
+::-webkit-scrollbar{
+    overflow: unset;
+}
+
+div#hum-1, div#exp1, div#al2, div#exp2, div#al3, div#exp3, div#al4, div#exp4, div#al5, div#exp5, div#al6, div#exp6, div#al7, div#exp7, div#al8, div#exp8, div#al9, div#exp9, div#al10, div#exp10, div#final{
+    height: 96vh;
+    max-height: 160vh;
+    overflow: auto;
+    margin-bottom: 0;
+}
+div#hum-1.some, div#exp1.some, div#al2.some, div#exp2.some, div#al3.some, div#exp3.some, div#al4.some, div#exp4.some, div#al5.some, div#exp5.some, div#al6.some, div#exp6.some, div#al7.some, div#exp7.some, div#al8.some, div#exp8.some, div#al9.some, div#exp9.some, div#al10.some, div#exp10.some, div#final.some{
+    height: 0vh;
+    max-height: 0vh;
+    
+}
+div{
+    overflow: hidden;
+    
+}
+div.some{
+    max-height: 0vh;
+    pointer-events: none;
+}
+div#number{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    background-color: rgb(0, 10, 146);
+    width: 50px;
+    height: 50px;
+    color: rgb(143, 186, 255);
+    border-radius: 100%;
+    border: 4px rgb(0, 225, 255) solid;
+    margin-top: 10px ;
+
+}
+
+div#enunc, div#enuncf, div#enunc4, div#enuncff{
+    color: white;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border: 10px white double;
+    background-color: rgba(38, 0, 255, 0.7);
+    
+}
+ div#hum-1 > div#enunc{
+    font-size: 40px;
+}
+
+div#exp3 > div#enunc{
+    font-size: 40px;
+}
+div#al5 > div#enunc{
+    font-size: 40px;
+}
+div#al6 > div#enunc{
+    font-size: 35px;
+}
+div#al9 > div#enunc{
+    font-size: 35px;
+}
+
+
+
+button{
+    
+    outline: none;
+    width: 400px;
+    height: 110px;
+    margin-top: 30px;
+    font-size: 25px;
+    border: 4px solid rgb(138, 138, 138);
+    background: linear-gradient(rgb(0, 0, 88),rgb(1, 1, 126), blue);
+    color: white;
+    transition: .4s;
+    border-radius: 30px;
+    
+}
+
+button:hover{
+    background: transparent; 
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transform: translateY(15px);
+    
+}
+
+button#qg1, button#buttonexp4{
+    margin-bottom: 50px;
+}
+.super{
+    opacity: 0;
+    height: 9px;
+    transition: .5s;
+}
+.super:hover{
+    opacity: 1;
+    height: 40px;
+    color: black;
+    font-size: 25px;
+    background:linear-gradient( rgb(57, 133, 255), lightgreen);
+    border-radius: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width: 1660px){
+    div#enunc{
+        font-size: 45px;
+    }
+    div#al6 > div#enunc{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1345px){
+    div#exp1 > div#enunc{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    div#al6 > div#enunc{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    div#al9 > div#enunc{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1215px){
+    div#exp3 > div#enunc{
+        font-size: 35px;
+    }
+    div#exp4 > div#enunc4{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1123px){
+    div#exp1 > div#enunc{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    div#enunc{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 952px) {
+        div#enuncff{
+            font-size: 39px ;
+            margin-left: 30%;
+            margin-left: 30%;
+        }
+}
+@media screen and (max-width: 950px){
+    div#al6 >button{
+        width: 320px;
+        height: 88px;
+    }
+    div#al6 >button:hover{
+       width: 320px;
+    }
+    div#al9 >button{
+        width: 360px;
+        height: 99px;
+    }
+    div#al9 >button:hover{
+       width: 360px;
+    }
+}
+
+@media screen and (max-width: 845px){
+    div#exp1 > div#enunc{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    div#hum-1 > div#enunc{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 796px){
+    div#enuncff{
+        font-size: 32px ;
+        margin-left: 30%;
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 750px){
+    div#al5 > div#enunc{
+        font-size: 30px;
+    }
+
+    div#al6 > div#enunc{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 718px){
+    div#enuncff{
+        font-size: 29px ;
+        margin-left: 25%;
+        margin-left: 25%;
+    }}
+
+@media screen and (max-width: 708px){
+    div#exp3 > div#enunc{
+        font-size: 30px;
+    }
+    div#exp10 > div#enunc{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    div#al2 > div#enunc{
+        font-size: 40px;
+    }
+
+    div#al9 > div#enunc{
+        font-size: 30px;
+    }
+
+    div#enunc{
+        font-size: 40px;
+    }
+    div#enuncff{
+        font-size: 25px ;
+        margin-left: 25%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    div#al2 > div#enunc{
+       font-size: 35px;
+   }
+
+   div#enunc{
+    font-size: 35px;
+}
+
+div#exp4 >button{
+    width: 320px;
+    height: 88px;
+}
+div#exp4 >button:hover{
+   width: 320px;
+}
+div#exp4 > div#enunc4{
+    font-size: 25px;
+}
+div#enuncff{
+    font-size: 22px ;
+    margin-left: 20%;
+    margin-left: 20%;
+}
+}
+
+@media screen and (max-width: 550px){
+     button{
+         width: 360px;
+         height: 99px;
+     }
+     button:hover{
+        width: 360px;
+     }
+     div#al2 > div#enunc{
+        font-size: 35px;
+    }
+    div#exp3 >button{
+        width: 320px;
+        height: 88px;
+    }
+    div#exp3 >button:hover{
+       width: 320px;
+    }
+    div#exp3 > div#enunc{
+        font-size: 25px;
+    }
+    div#al6 > div#enunc{
+        font-size: 25px;
+    }
+    div#al9 >button{
+        width: 320px;
+        height: 88px;
+    }
+    div#al9 >button:hover{
+       width: 320px;
+    }
+}
+
+@media screen and (max-width: 521px){
+    div#al2 >button{
+        font-size: 20px;
+    }
+    div#al2 >button:hover{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width: 515px){
+    button{
+        width: 320px;
+        height: 88px;
+    }
+    button:hover{
+       width: 320px;
+    }
+    div#exp1 > div#enunc{
+        font-size: 28px;
+    }
+}

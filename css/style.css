@@ -1,0 +1,206 @@
+body{
+    background: linear-gradient( rgb(3, 7, 58) 30%, rgb(29, 15, 223));
+    background-size: 100vw 134vh;
+    
+}
+::-webkit-scrollbar{
+    overflow: unset;
+}
+.geral{
+    text-align: center;
+    height: 96vh;
+    max-height: 200vh;
+    overflow: auto;
+    padding-bottom: 5vh ;
+}
+
+.esc{
+    max-height: 0;
+    pointer-events: none;
+}
+.txt{
+    background: linear-gradient(45deg, rgb(246, 51, 100), lightgreen);      
+    background-size: 400% 400%;
+    animation: a 10s infinite;
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px;
+    border: 10px rgb(255, 255, 255);
+    border-style:inset;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    color: white;
+    box-shadow:10px 10px 16px black;
+    transition: .4s;
+    z-index: 10;
+}
+.txt:hover{
+    transform: translateY(20px);
+    box-shadow: 15px 15px 16px black;
+}
+@keyframes a {
+    0%{background-position: 0% 100%;}
+    50%{background-position: 100% 0%;}
+    100%{background-position: 0% 100%;}
+}
+
+div{
+    overflow:hidden;
+    max-height: 1000px;
+    transition: max-height 1.5s  ;
+}
+div.esc{
+    max-height: 0;
+    pointer-events: none;
+}
+
+button#mat{
+    outline: none;
+    width: 300px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 0 40px;
+    border: 4px solid rgb(63, 63, 63);
+    background-color: rgb(62, 129, 255);
+    color: rgb(255, 255, 255);
+    font-size: 47px;
+    font-weight: bolder;
+    transition: .4s;
+}
+button#mat:hover, button#princ:hover{
+    transform: translateY(10px);
+    box-shadow: 10px 10px 16px black;
+    border-radius:  40px 0;
+}
+
+div#espec{
+    margin-top: 20px;
+    height: 200px;
+}
+
+button#princ{
+    width: 330px;
+    height: 110px;
+    border-radius:  40px;
+    border: 4px solid rgb(165, 165, 165);
+    background-color: rgb(62, 129, 255);
+    color: rgb(255, 255, 255);
+    font-size: 47px;
+    font-weight: bolder;
+    transition: .4s;
+    outline: none;
+}
+
+
+
+
+
+@media screen and (max-width:1700px){
+    div.txt{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width:14000px){
+    div.txt{
+        font-size: 120px !important;
+    }
+}
+
+
+@media screen and (max-width:1320px){
+    button#mat{
+        width: 270px;
+    height: 90px;
+    font-size: 42px ;
+    }
+}
+
+@media screen and (max-width:1190px){
+    
+    button#mat{
+        width: 210px;
+    height: 70px;
+    font-size: 33px;
+    }
+
+    button#princ{
+        width: 300px;
+        height: 99px;
+    }
+}
+@media screen and (max-width:1060px){
+    
+    div.txt{
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width:950px){
+    button#mat{
+        width: 195px;
+    height: 65px;
+    font-size: 30px;
+    }
+
+    button#princ{
+        width: 270px;
+        height: 88px;
+    }
+}
+
+@media screen and (max-width:910px){
+    button#mat{
+        width: 180px;
+    height: 60px;
+    font-size: 27px;
+    }
+}
+
+@media screen and (max-width:880px){
+    div.txt{
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width:830px){
+    div.txt{
+        font-size: 80px;
+    }
+
+    button#mat{
+        width: 150px;
+    height: 50px;
+    font-size: 22px;
+    }
+}
+
+@media screen and (max-width:715px){
+    div.txt{
+        font-size: 70px;
+    }
+
+    button#mat{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:630px){
+    div.txt{
+        font-size: 60px;
+    }
+
+    button#princ{
+        width: 240px;
+        height: 77px;
+        font-size: 40px;
+    }
+}
+
+
